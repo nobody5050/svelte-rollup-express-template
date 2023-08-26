@@ -1,0 +1,114 @@
+/*
+lumin-min-css
+basic css styling for a web project to minimize design pain and get to just JS pain
+
+(C) Luminoso '23 
+DICLAIMER: Any mental injury caused by the code below is your own liability!
+*/
+
+
+body {
+    margin: 30px auto;
+    padding: 0 30px;
+    font-family: 'Inconsolata', monospace;
+    background-color: #111;
+    color: #c9c9c9;
+}
+
+.footer {
+    margin-left: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #50535c;
+    text-align: left;
+}
+
+.header {
+    color: #5a5d68;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a {
+    color: #43B581;
+    text-decoration: none;
+}
+
+.tileholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.base-card {
+    color: #cccccc;
+    background-color: #34363b;
+    margin: 6px;
+    padding: 8px;
+}
+
+.subcard {
+    color: #cccccc;
+    /* background-color: #3c3e44; */
+    margin: 2px;
+    padding: 2px;
+    padding-bottom: 5px;
+}
+
+.big {
+    font-size: 18;
+}
+
+h4 {
+    margin: 2px;
+}
+
+h6 {
+    margin: 2px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #f9f9f9;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+hr {
+    background-color: #eee;
+    background: #eee;
+    color: #eee;
+}
+
+blockquote {
+    background: rgb(46, 46, 46);
+    border-left: 10px solid rgb(71, 68, 68);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: none;
+}
+
+blockquote:before {
+    color: rgb(48, 46, 46);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
